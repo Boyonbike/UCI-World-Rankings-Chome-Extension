@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            width: 200px;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        button {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        h3,
+        h4,
+        h5 {
+            text-align: center;
+        }
+
+        .div {
+            padding: 0%;
+        }
+
+        #btn3 {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div">
+        <h3>UCI World Rankings Tool</h3>
+        <h4>Please press filter and the tool will remove non-u23 riders from the table and extend the rankings.</h4>
+        <h4>Extend Rankings will remove the pagination and make it one big long list of all riders.</h4>
+        <h5>This also works on rankings for other disciplines with Elite & U23 combined!</h5>
+    </div>
+    <button id="btn1">Open XC Rankings</button>
+    <button id="btn2">Womens XC Rankings</button>
+    <button id="btn3">Filter</button>
+    <button id="btn4">Extend Rankings</button>
+    <script src="popup.js"></script>
+</body>
+
+</html>
